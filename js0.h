@@ -20,6 +20,8 @@ public:
 
 
 private:
+    int *_axis;
+    char *_button;
 
     int joy_fd0, num_of_axis, num_of_buttons, x;
     char name_of_joystick[80];
@@ -30,6 +32,7 @@ signals:
 
 public slots:
     void doWork0();
+    void doMainLoop();
 };
 
 #endif // JS0_H

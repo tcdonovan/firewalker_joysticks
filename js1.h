@@ -20,6 +20,9 @@ public:
     ~JS1();
 
 private:
+    int *_axis;
+    char *_button;
+
     int joy_fd0, num_of_axis, num_of_buttons, x;
     char name_of_joystick[80];
     struct js_event js;
@@ -29,6 +32,7 @@ signals:
 
 public slots:
     void doWork1();
+    void doMainLoop();
 };
 
 #endif // JS1_H
