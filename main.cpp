@@ -1,3 +1,6 @@
+/*********************************************
+ *  This is a comment or something
+ ********************************************/
 #include <QCoreApplication>
 #include <QThread>
 
