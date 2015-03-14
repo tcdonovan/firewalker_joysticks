@@ -16,9 +16,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    js0.cpp \
-    js1.cpp
+    joystick.cpp
 
 HEADERS += \
-    js0.h \
-    js1.h
+    joystick.h
