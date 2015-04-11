@@ -102,4 +102,5 @@ void JS1::doMainLoop() /* infinite loop */
     //nanosleep(&ts,NULL);
 
     QMetaObject::invokeMethod( this, "doMainLoop", Qt::QueuedConnection );
+
 }

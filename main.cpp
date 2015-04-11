@@ -1,18 +1,7 @@
+<<<<<<< HEAD
 /*********************************************
  *  This is a comment or something
  ********************************************/
-#include <QCoreApplication>
-#include <QThread>
-
-
-#include <stdio.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <linux/joystick.h>
-
-#include "js0.h"
-#include "js1.h"
 #include "joystick.h"
 
 #define JOY_DEV0 "/dev/input/js0"

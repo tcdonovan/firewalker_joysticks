@@ -120,4 +120,5 @@ void JS0::doMainLoop() /* infinite loop */
     fflush(stdout);
 
     QMetaObject::invokeMethod( this, "doMainLoop", Qt::QueuedConnection );
+
 }
