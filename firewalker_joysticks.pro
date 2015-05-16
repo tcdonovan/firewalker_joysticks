@@ -14,9 +14,12 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-
 SOURCES += main.cpp \
-    joystick.cpp
+    joystick.cpp \
+    udppacketsender.cpp \
+    heartbeat.cpp
 
 HEADERS += \
-    joystick.h
+    joystick.h \
+    udppacketsender.h \
+    heartbeat.h

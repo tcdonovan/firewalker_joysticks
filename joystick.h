@@ -31,6 +31,7 @@ private:
     struct js_event js;
 
 signals:
+    void reportTelemetryUpdate(QByteArray);
 
 public slots:
     void doWork();
